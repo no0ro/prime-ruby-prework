@@ -1,8 +1,6 @@
 def prime?(integer)
-  range = 
-  if integer%2 == 0 
-     true 
-  elseif integer<= 1 
-    false 
+  range = 2..integer
+  for i in range
+  
   end
 end 
