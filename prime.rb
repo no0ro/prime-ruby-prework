@@ -3,12 +3,7 @@ def prime?(integer)
   if integer <= 1 
     false
   for i in range
-    if integer %
-  
+    if range%i == 0
+    false
   end
 end 
-  for (int i = 2; i < n; i++) 
-        if (n % i == 0) 
-            return false; 
-  
-    return true; 
