@@ -1,5 +1,4 @@
 def prime?(integer)
-  range = 2..integer
   if integer <= 2 
     (2..integer - 1).all? {|x| integer % x != 0}
   end 
