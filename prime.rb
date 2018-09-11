@@ -2,7 +2,7 @@ def prime?(integer)
   if integer <= 2 
     (2..integer - 1).each {|x| integer % x != 0}
     true
-  end 
+    break 
   else
     false
 end 
