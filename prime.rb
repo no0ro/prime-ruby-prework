@@ -1,11 +1,9 @@
 def prime?(integer)
   range = 2..integer
   if integer <= 2 
-    (2..integer - 1).all? do 
-  for i in range
-    if range%i == 0
+    (2..integer - 1).all? {|x| integer % x != 0}
+  else
     false
-  end
 end 
 
 def prime?(number)
