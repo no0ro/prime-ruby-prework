@@ -3,6 +3,7 @@ def prime?(integer)
   if integer <= 1 
     false
   for i in range
+    if integer %
   
   end
 end 
